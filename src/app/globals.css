@@ -19,3 +19,14 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html, body {
+  overflow: hidden;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  background-color: black; 
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
